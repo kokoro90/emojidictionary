@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,7 @@
 		657AD6681F73620E006B600A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 657AD6661F73620E006B600A /* Main.storyboard */; };
 		657AD66A1F73620E006B600A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 657AD6691F73620E006B600A /* Assets.xcassets */; };
 		657AD66D1F73620E006B600A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 657AD66B1F73620E006B600A /* LaunchScreen.storyboard */; };
+		657AD6751F737846006B600A /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657AD6741F737846006B600A /* DefinitionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		657AD6691F73620E006B600A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		657AD66C1F73620E006B600A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		657AD66E1F73620E006B600A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		657AD6741F737846006B600A /* DefinitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DefinitionViewController.swift; path = ../DefinitionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				657AD6621F73620E006B600A /* AppDelegate.swift */,
 				657AD6641F73620E006B600A /* ViewController.swift */,
+				657AD6741F737846006B600A /* DefinitionViewController.swift */,
 				657AD6661F73620E006B600A /* Main.storyboard */,
 				657AD6691F73620E006B600A /* Assets.xcassets */,
 				657AD66B1F73620E006B600A /* LaunchScreen.storyboard */,
@@ -96,13 +99,12 @@
 				TargetAttributes = {
 					657AD65E1F73620E006B600A = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = DB5CCPV538;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = 657AD65A1F73620E006B600A /* Build configuration list for PBXProject "Emoji Dictionary" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -138,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				657AD6651F73620E006B600A /* ViewController.swift in Sources */,
+				657AD6751F737846006B600A /* DefinitionViewController.swift in Sources */,
 				657AD6631F73620E006B600A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
